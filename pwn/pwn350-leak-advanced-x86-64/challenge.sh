@@ -1,5 +1,5 @@
 #!/bin/sh
 
-CHALLENGE_FILE_NAME=''
+CHALLENGE_FILE_NAME='leak'
 
-socat tcp-l:65535,reuseaddr,fork exec:/home/sniper/${CHALLENGE_FILE_NAME} &
+su sniper -c "socat tcp-l:65535,reuseaddr,fork exec:/home/sniper/${CHALLENGE_FILE_NAME} &"
