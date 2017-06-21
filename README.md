@@ -1,4 +1,4 @@
-#Sniperoj Dockerfile
+# Sniperoj Dockerfile
 
 ```
 本仓库主要存储了 SniperOJ 训练平台的所有题目需要用到的 Docker 环境的 Dockerfile
@@ -42,7 +42,7 @@ root 用户密码也为 sniperoj
 
 目前已经通过测试的 Dockerfile 如下 : 
 ---
-[-] pwn350-leak-advanced-x86-64
+- [x] pwn350-leak-advanced-x86-64
 
 
 
