@@ -14,7 +14,25 @@ Fight
 https://hub.docker.com/r/wangyihang/sniperoj/
 ```
 
-Docker 镜像的时候方法
+Dockerfile 使用方法 : 
+---
+```
+1. 安装 Docker
+apt install docker.io
+2. clone 仓库
+git clone https://github.com/SniperOJ/Dockerfile.git
+3. 进入某一个想要搭建的题目文件夹中 , 例如 pwn/pwn350-leak-advanced-x86-64
+cd ./Dockerfile/pwn/pwn350-leak-advanced-x86-64
+4. 构建镜像
+docker build -t 'pwn350-leak-advanced-x86-64' .
+5. 运行容器
+WEB题目
+docker run -i -d -p 8080:80 -p 8081:22 --name 'challenge_name' [IMAGE_NAME] /run.sh
+PWN题目
+docker run -i -d -p 8080:65535 -p 8081:22 --name 'challenge_name' [IMAGE_NAME] /run.sh
+```
+
+Docker 镜像的使用方法
 ---
 ```
 1. 首先安装 Docker
