@@ -19,5 +19,8 @@ su ${USER} -c "socat tcp-l:65535,reuseaddr,fork exec:${FILE_PATH}/${BIN} &"
 # set flag
 echo "SniperOJ{${FLAG}}" > ${FILE_PATH}/flag
 
+# start ssh server
+service ssh start
+
 # start /bin/sh
 /bin/bash
