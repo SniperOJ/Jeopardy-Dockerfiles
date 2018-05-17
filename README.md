@@ -54,6 +54,7 @@ please follow this document: [CONTRITUBE.md](CONTRIBUTE.md)
 | --------------- | ---- |
 | [bypass-php-exit](web/bypass-php-exit) | [WEB](web/)  |
 | [2048](web/2048)            | [WEB](web/)  |
+| [sniperoj-web-browser](web/sniperoj-web-browser)|[WEB](web/)|
 
 
 
