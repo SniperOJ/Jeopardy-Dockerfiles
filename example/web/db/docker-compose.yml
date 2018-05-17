@@ -4,12 +4,11 @@ services:
     mysql:
         image: mysql:5
         volumes:
-            - ./database:/var/lib/mysql
+            - ./db-volume:/var/lib/mysql
+            - ./database.sql:/docker-entrypoint-initdb.d
         environment:
-            - WORDPRESS_DB_HOST=mysql:3306
-            - WORDPRESS_DB_NAME=ctf
-            - WORDPRESS_DB_USER=root
-            - WORDPRESS_DB_PASSWORD=root
+            - MYSQL_DATABASE=ctf
+            - MYSQL_ROOT_PASSWORD=root
     web:
         build: .
         depends_on:
