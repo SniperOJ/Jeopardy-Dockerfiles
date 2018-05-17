@@ -72,3 +72,7 @@ to
 FROM i386/ubuntu:16.04
 ```
 #### 5. Other Challenge
+
+
+#### Reference
+> [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
