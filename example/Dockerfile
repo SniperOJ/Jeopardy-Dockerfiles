@@ -2,17 +2,24 @@
 FROM ubuntu:16.04
 
 # Meta Information
-MAINTAINER Your Name <Your Email>
+MAINTAINER Wang Yihang "wangyihanger@gmail.com"
+
+# update
+RUN apt update
 
 # Setup Server Environment
-RUN apt update \
-    && apt install -y apache2 php libapache2-mod-php
+RUN apt install -y \
+    apache2 \
+    php \
+    libapache2-mod-php
 
-# Setup Vulnerability Environment
-RUN rm -rf /var/www/html && mkdir /var/www/html
+# Setup the vulnerability environment
+COPY source/* /var/www/html
+COPY source/.* /var/www/html
 
-COPY source/index.php /var/www/html/index.php
-RUN mkdir /var/www/html/upload
+# add new user if it is needed
+# RUN useradd -d /home/ctf/ -m -p ctf -s /bin/bash ctf
+# RUN echo "ctf:ctf" | chpasswd
 
 # Entry point
 ENTRYPOINT service apache2 start && /bin/bash
