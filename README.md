@@ -55,8 +55,6 @@ please follow this document: [CONTRITUBE.md](CONTRIBUTE.md)
 #### FAQ
 > [Freuqently Asked Questions](FAQ.md)
 
-#### Acknownledgement
-
 #### Reference
 * [Platform Source Code](https://github.com/SniperOJ/SniperOJ-Platform)
 * [Writeups of Challenges](https://github.com/SniperOJ/SniperOJ-Challenge-Writeups)
