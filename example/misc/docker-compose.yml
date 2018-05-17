@@ -1,9 +1,0 @@
-version: '2'
-
-services:
-    misc:
-        build: .
-        ports:
-            - '1022:22'
-        stdin_open: true
-        tty: true
