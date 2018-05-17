@@ -50,7 +50,7 @@ docker-compose run
 please follow this document: [CONTRITUBE.md](CONTRIBUTE.md)
 
 #### Where is the avaliable challenges list?
-* [CHALLENGES.md](CHALLENGES.md)
+> [CHALLENGES.md](CHALLENGES.md)
 
 #### FAQ
 > [Freuqently Asked Questions](FAQ.md)
