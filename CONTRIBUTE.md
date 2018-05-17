@@ -32,7 +32,7 @@ cd easy-injection
 cp -r example/web/db/* ./
 ```
 * Edit `Dockerfile` and `docker-compose.yml` to config your vulnerability environment. (Actually normally the only thing you need to change is the `MAINTAINER` field)
-* Copy your source code to folder `source`
+* Copy your **source code** to folder `source`
 * Copy your database init script as `database.sql`
 * Run `docker-compose build` to make sure your `Dockerfile` and `docker-compose.yml` have no errors.
 * Run `docker-compose up -d` to start the vulnerability environment.
@@ -45,7 +45,7 @@ mkdir easy-injection
 cd easy-injection
 ```
 * Edit `Dockerfile` and `docker-compose.yml` to config your vulnerability environment. (Actually normally the only thing you need to change is the `MAINTAINER` field)
-* Copy your source code to folder `source`
+* Copy your **source code** to folder `source`
 * Run `docker-compose build` to make sure your `Dockerfile` and `docker-compose.yml` have no errors.
 * Run `docker-compose up -d` to start the vulnerability environment.
 * Test whether your challenge is set successfully, it depends on the logic of your challenge.
@@ -57,7 +57,7 @@ mkdir buffer-overflow
 cd buffer-overflow
 ```
 * Edit `Dockerfile` and `docker-compose.yml` to config your vulnerability environment. (Actually normally the only thing you need to change is the `MAINTAINER` field)
-* Copy your source code and **Makefile**(Important) to folder `source`
+* Copy your source code and **Makefile**(Important) to folder `source` (Please rename your C filename as `pwn.c`, just for tidiness)
 * Run `docker-compose build` to make sure your `Dockerfile` and `docker-compose.yml` have no errors.
 * Run `docker-compose up -d` to start the vulnerability environment.
 * Test whether your challenge is set successfully, it depends on the logic of your challenge.
