@@ -1,39 +1,22 @@
-# Basic Image of Challenges on SniperOJ 
+# Origin image
 FROM ubuntu:16.04
-MAINTAINER Yihang Wang "wangyihanger@gmai.com"
 
-# update & upgrade & clean
-RUN apt-get update -y \
-	&& apt upgrade -y \
-	&& apt dist-upgrade -y \
-	&& apt clean -y \
-	&& apt autoclean -y \
-	&& apt remote -y \
-	&& apt autoremote -y
+# Meta Information
+MAINTAINER Wang Yihang "wangyihanger@gmail.com"
 
-# set timezone
-ENV TZ=Asia/Shanghai
-RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+# update
+RUN apt update
 
-# set chinese support
-ENV LANG zh_CN.UTF-8  
-ENV LANGUAGE zh_CN:zh  
-ENV LC_ALL zh_CN.UTF-8  
+# Setup Server Environment
+RUN apt install -y apache2 php libapache2-mod-php 
 
-# create run.sh
-RUN touch /run.sh \
-	&& echo '#!/bin/sh' >> /run.sh \
-	&& echo '' >> run.sh \
-	&& echo 'service ssh start' >> run.sh \
-	&& echo '' >> run.sh \
-	&& echo '/bin/bash' >> run.sh \
-	&& chmod +x /run.sh
+# Setup the vulnerability environment
+COPY source/* /var/www/html
+COPY source/.* /var/www/html
 
-# add new user
-RUN useradd -d /home/ctf/ -m -p sniper -s /bin/bash ctf
+# add new user if it is needed
+# RUN useradd -d /home/ctf/ -m -p ctf -s /bin/bash ctf 
+# RUN echo "ctf:ctf" | chpasswd
 
-# change password
-RUN echo "ctf:ctf" | chpasswd
-
-# run shell
-CMD ["/run.sh"]
+# Entry point
+ENTRYPOINT service apache2 start && /bin/bash
