@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+    mysql:
+        image: mysql:5
+        volumes:
+            - ./db-volume:/var/lib/mysql
+            - ./database.sql:/docker-entrypoint-initdb.d
+        environment:
+            - MYSQL_DATABASE=ctf
+            - MYSQL_ROOT_PASSWORD=root
+    web:
+        build: .
+        depends_on:
+            - mysql
+        ports:
+            - '80:80'
+        stdin_open: true
+        tty: true
