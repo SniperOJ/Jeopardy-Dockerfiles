@@ -56,6 +56,9 @@ please follow this document: [CONTRITUBE.md](CONTRIBUTE.md)
 | [2048](web/2048)            | [WEB](web/)  |
 | [sniperoj-web-browser](web/sniperoj-web-browser)|[WEB](web/)|
 | [compare-flag](misc/compare-flag)|[MISC](misc/)|
+| [as-fast-as-you-can](web/as-fast-as-you-can) | [WEB](web/)|
+| [punctuation-webshell/](web/punctuation-webshell) | [WEB](web/)|
+| [php-weak-type](web/php-weak-type) | [WEB](web/)|
 
 
 
