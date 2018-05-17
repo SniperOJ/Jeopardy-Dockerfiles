@@ -21,7 +21,7 @@ sudo apt install docker-compose
 # 2. Clone this repo
 git clone https://github.com/SniperOJ/CTF-Challenge-Dockerfiles.git
 
-# Enter the challenge directory which you are interested
+# Enter the challenge directory which you are interested, eg: web/bypass-php-exit/
 cd web/bypass-php-exit/
 
 # 3. Change the listen port for forwarding if you want
