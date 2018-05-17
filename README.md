@@ -43,14 +43,19 @@ docker-compose build
 # 5. Run the environment
 docker-compose run
 
-# 6. Enjoy the challenges
+# 6. Enjoy the challenge
 ```
 
 #### How to contribute?
 please follow this document: [CONTRITUBE.md](CONTRIBUTE.md)
 
 #### Where is the avaliable challenges list?
-- [x] pwn350-leak-advanced-x86-64
+| Name            | Type |
+| --------------- | ---- |
+| [bypass-php-exit](web/bypass-php-exit) | [WEB](web/)  |
+| [2048](web/2048)            | [WEB](web/)  |
+
+
 
 #### FAQ
 > [Freuqently Asked Questions](FAQ.md)
