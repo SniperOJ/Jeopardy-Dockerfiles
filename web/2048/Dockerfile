@@ -11,7 +11,7 @@ RUN apt update \
 # Setup Vulnerability Environment
 RUN rm -rf /var/www/html
 
-ADD html.tar /var/www/
+ADD source.tar /var/www/
 
 # Entry point
 ENTRYPOINT service apache2 start && /bin/bash
