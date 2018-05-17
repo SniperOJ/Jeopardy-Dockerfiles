@@ -1,4 +1,4 @@
-# Sniperoj Dockerfile
+# SniperOJ Dockerfiles
 
 #### Description
 SniperOJ is an open source CTF Platform, everything is open source, including platform and all challenges.
@@ -58,6 +58,6 @@ please follow [CONTRITUBE](CONTRIBUTE.md)
 #### Acknownledgement
 
 #### Reference
-* Platform Source Code: https://github.com/SniperOJ/SniperOJ-Platform
-* Writeups of Challenges: https://github.com/SniperOJ/SniperOJ-Challenge-Writeups
-* Docker Hub: https://hub.docker.com/u/sniperoj/
+* [Platform Source Code](https://github.com/SniperOJ/SniperOJ-Platform)
+* [Writeups of Challenges](https://github.com/SniperOJ/SniperOJ-Challenge-Writeups)
+* [Docker Hub](https://hub.docker.com/u/sniperoj/)
