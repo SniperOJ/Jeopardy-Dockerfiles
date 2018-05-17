@@ -50,24 +50,7 @@ docker-compose run
 please follow this document: [CONTRITUBE.md](CONTRIBUTE.md)
 
 #### Where is the avaliable challenges list?
-| Name            | Type |
-| --------------- | ---- |
-| [bypass-php-exit](web/bypass-php-exit) | [WEB](web/)  |
-| [2048](web/2048)            | [WEB](web/)  |
-| [sniperoj-web-browser](web/sniperoj-web-browser)|[WEB](web/)|
-| [compare-flag](misc/compare-flag)|[MISC](misc/)|
-| [as-fast-as-you-can](web/as-fast-as-you-can) | [WEB](web/)|
-| [punctuation-webshell/](web/punctuation-webshell) | [WEB](web/)|
-| [php-weak-type](web/php-weak-type) | [WEB](web/)|
-| [guess-the-code](web/guess-the-code) | [WEB](web/)|
-| [actf-run-circles](pwn/actf-run-circles) | [PWN](pwn/) |
-| [advanced-leak-x86](pwn/advanced-leak-x86) | [PWN](pwn/) |
-| [bof-x86-64](pwn/bof-x86-64) | [PWN](pwn/) |
-| [leak-x86](pwn/leak-x86) | [PWN](pwn/) |
-| [printable](pwn/printable) | [PWN](pwn/) |
-| [shellcode-x86-64](pwn/shellcode-x86-64) | [PWN](pwn/) |
-| [shorter-shellcode-x86-64](pwn/shorter-shellcode-x86-64) | [PWN](pwn/) |
-
+* [CHALLENGES.md](CHALLENGES.md)
 
 #### FAQ
 > [Freuqently Asked Questions](FAQ.md)
