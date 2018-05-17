@@ -1,19 +1,26 @@
 ## Challenges
 
 #### WEB
-* [bypass-php-exit](web/bypass-php-exit)
 * [2048](web/2048)
-* [sniperoj-web-browser](web/sniperoj-web-browser)
 * [as-fast-as-you-can](web/as-fast-as-you-can)
-* [punctuation-webshell](web/punctuation-webshell)
-* [php-weak-type](web/php-weak-type)
+* [baby-eval](web/baby-eval)
+* [bypass-php-exit](web/bypass-php-exit)
 * [guess-the-code](web/guess-the-code)
+* [phar](web/phar)
+* [php-object-injection](web/php-object-injection)
+* [php-weak-type](web/php-weak-type)
+* [punctuation-webshell](web/punctuation-webshell)
+* [sniperoj-web-browser](web/sniperoj-web-browser)
+* ~~[hard-injection-via-update](web/hard-injection-via-update)~~
+* ~~[inject-again](web/inject-again)~~
+* ~~[md5-vs-injection](web/md5-vs-injection)~~
 
 #### MISC
 * [compare-flag](misc/compare-flag)
+* [bash-jail](misc/bash-jail)
+* [md5-collision](misc/md5-collision)
 
 #### PWN
-
 
 * [actf-run-circles](pwn/actf-run-circles)
 * [advanced-leak-x86](pwn/advanced-leak-x86)

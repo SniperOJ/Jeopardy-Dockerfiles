@@ -2,13 +2,12 @@ version: '2'
 
 services:
   mysql:
-    image: mysql
+    image: mysql:5
     restart: always
     volumes:
       - ./database.sql:/docker-entrypoint-initdb.d/database.sql
       - ./db-volume:/var/lib/mysql
     environment:
-      - MYSQL_DATABASE=ctf
       - MYSQL_ROOT_PASSWORD=root
     ports:
       - '3306:3306'
