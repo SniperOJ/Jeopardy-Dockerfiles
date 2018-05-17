@@ -37,6 +37,7 @@ switch challenge_type:
 * Run `docker-compose build` to make sure your `Dockerfile` and `docker-compose.yml` have no errors.
 * Run `docker-compose up -d` to start the vulnerability environment.
 * Test whether your challenge is set successfully, it depends on the logic of your challenge.
+
 #### 2. PHP Challenge
 * name your challenge and create a folder under `web/` directory, this directory will the your challenge root, eg: `easy-injection`
   ```
@@ -49,6 +50,7 @@ switch challenge_type:
 * Run `docker-compose build` to make sure your `Dockerfile` and `docker-compose.yml` have no errors.
 * Run `docker-compose up -d` to start the vulnerability environment.
 * Test whether your challenge is set successfully, it depends on the logic of your challenge.
+
 #### 3. PWN Challenge on x64 architure
 * name your challenge and create a folder under `pwn/` directory, this directory will the your challenge root, eg: `buffer-overflow`
   ```
@@ -61,16 +63,11 @@ switch challenge_type:
 * Run `docker-compose build` to make sure your `Dockerfile` and `docker-compose.yml` have no errors.
 * Run `docker-compose up -d` to start the vulnerability environment.
 * Test whether your challenge is set successfully, it depends on the logic of your challenge.
+
 #### 4. PWN Challenge on x86 architure
-Please follow [step 3](#3-pwn-challenge-on-x64-architure), the only difference is that you should change `Dockerfile`
-You should change the first line from
-```
-FROM ubuntu:16.04
-```
-to
-```
-FROM i386/ubuntu:16.04
-```
+* Please follow [step 3](#3-pwn-challenge-on-x64-architure), the only difference is that you should change `Dockerfile`
+You should change the first line from `FROM ubuntu:16.04` to `FROM i386/ubuntu:16.04`
+
 #### 5. Other Challenge
 
 
