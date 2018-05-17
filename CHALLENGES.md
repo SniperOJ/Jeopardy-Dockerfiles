@@ -5,7 +5,7 @@
 * [2048](web/2048)
 * [sniperoj-web-browser](web/sniperoj-web-browser)
 * [as-fast-as-you-can](web/as-fast-as-you-can)
-* [punctuation-webshell/](web/punctuation-webshell)
+* [punctuation-webshell](web/punctuation-webshell)
 * [php-weak-type](web/php-weak-type)
 * [guess-the-code](web/guess-the-code)
 
