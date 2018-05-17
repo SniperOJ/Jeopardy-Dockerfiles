@@ -69,7 +69,7 @@ switch challenge_type:
 You should change the first line from `FROM ubuntu:16.04` to `FROM i386/ubuntu:16.04`
 
 #### 5. Other Challenge
-
+* Your are a excellent hacker, I believe that you can get things done prefectly.
 
 ## Reference
 > [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
