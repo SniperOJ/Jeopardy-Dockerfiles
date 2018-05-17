@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+    misc:
+        build: .
+        ports:
+            - '8080:8080'
+        stdin_open: true
+        tty: true
