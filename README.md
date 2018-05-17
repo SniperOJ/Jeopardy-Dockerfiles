@@ -47,7 +47,7 @@ docker-compose run
 ```
 
 #### How to contribute?
-please follow [CONTRITUBE](CONTRIBUTE.md)
+please follow this document: [CONTRITUBE.md](CONTRIBUTE.md)
 
 #### Where is the avaliable challenges list?
 - [x] pwn350-leak-advanced-x86-64
