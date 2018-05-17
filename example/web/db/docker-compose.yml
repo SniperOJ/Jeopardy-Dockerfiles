@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+    mysql:
+        image: mysql:5
+        volumes:
+            - ./database:/var/lib/mysql
+        environment:
+            - WORDPRESS_DB_HOST=mysql:3306
+            - WORDPRESS_DB_NAME=ctf
+            - WORDPRESS_DB_USER=root
+            - WORDPRESS_DB_PASSWORD=root
+    web:
+        build: .
+        depends_on:
+            - mysql
+        ports:
+            - '80:80'
+        stdin_open: true
+        tty: true
