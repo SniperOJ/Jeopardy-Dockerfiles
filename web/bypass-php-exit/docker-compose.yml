@@ -7,3 +7,5 @@ services:
             - '80:80'
         stdin_open: true
         tty: true
+        volumes:
+            - ./source/upload:/var/www/html/upload
