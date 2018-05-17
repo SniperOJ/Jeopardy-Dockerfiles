@@ -59,6 +59,7 @@ please follow this document: [CONTRITUBE.md](CONTRIBUTE.md)
 | [as-fast-as-you-can](web/as-fast-as-you-can) | [WEB](web/)|
 | [punctuation-webshell/](web/punctuation-webshell) | [WEB](web/)|
 | [php-weak-type](web/php-weak-type) | [WEB](web/)|
+| [guess-the-code](web/guess-the-code) | [WEB](web/)|
 
 
 
