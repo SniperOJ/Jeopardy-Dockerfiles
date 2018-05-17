@@ -62,7 +62,7 @@ switch challenge_type:
 * Run `docker-compose up -d` to start the vulnerability environment.
 * Test whether your challenge is set successfully, it depends on the logic of your challenge.
 #### 4. PWN Challenge on x86 architure
-Please follow step 3, the only difference is that you should change `Dockerfile`
+Please follow [step 3](#3-pwn-challenge-on-x64-architure), the only difference is that you should change `Dockerfile`
 You should change the first line from
 ```
 FROM ubuntu:16.04
