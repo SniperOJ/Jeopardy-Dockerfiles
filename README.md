@@ -47,7 +47,7 @@ docker-compose run
 ```
 
 #### How to contribute?
-please follow this document: [CONTRITUBE.md](CONTRIBUTE.md)
+> [CONTRITUBE.md](CONTRIBUTE.md)
 
 #### Where is the avaliable challenges list?
 > [CHALLENGES.md](CHALLENGES.md)
