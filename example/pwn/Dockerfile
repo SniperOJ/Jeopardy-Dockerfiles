@@ -1,4 +1,5 @@
 # Origin image
+# FROM i386/ubuntu:16.04
 FROM ubuntu:16.04
 
 # Meta Information
