@@ -60,7 +60,13 @@ please follow this document: [CONTRITUBE.md](CONTRIBUTE.md)
 | [punctuation-webshell/](web/punctuation-webshell) | [WEB](web/)|
 | [php-weak-type](web/php-weak-type) | [WEB](web/)|
 | [guess-the-code](web/guess-the-code) | [WEB](web/)|
-
+| [actf-run-circles](pwn/actf-run-circles) | [PWN](pwn/) |
+| [advanced-leak-x86](pwn/advanced-leak-x86) | [PWN](pwn/) |
+| [bof-x86-64](pwn/bof-x86-64) | [PWN](pwn/) |
+| [leak-x86](pwn/leak-x86) | [PWN](pwn/) |
+| [printable](pwn/printable) | [PWN](pwn/) |
+| [shellcode-x86-64](pwn/shellcode-x86-64) | [PWN](pwn/) |
+| [shorter-shellcode-x86-64](pwn/shorter-shellcode-x86-64) | [PWN](pwn/) |
 
 
 #### FAQ
