@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cat ${0}
+
+while :
+do
+    echo "$"
+    read input
+    output=`$input`
+done
