@@ -1,9 +1,15 @@
-# SniperOJ Basic Image
+# Basic Image of Challenges on SniperOJ 
 FROM ubuntu:16.04
 MAINTAINER Yihang Wang "wangyihanger@gmai.com"
 
-# update and install ssh 
-RUN apt-get update -y && apt-get install openssh-server -y
+# update & upgrade & clean
+RUN apt-get update -y \
+	&& apt upgrade -y \
+	&& apt dist-upgrade -y \
+	&& apt clean -y \
+	&& apt autoclean -y \
+	&& apt remote -y \
+	&& apt autoremote -y
 
 # set timezone
 ENV TZ=Asia/Shanghai
@@ -24,11 +30,10 @@ RUN touch /run.sh \
 	&& chmod +x /run.sh
 
 # add new user
-RUN useradd -d /home/sniper/ -m -p sniper -s /bin/bash sniper
+RUN useradd -d /home/ctf/ -m -p sniper -s /bin/bash ctf
 
 # change password
-RUN echo "root:password" | chpasswd
-RUN echo "sniper:password" | chpasswd
+RUN echo "ctf:ctf" | chpasswd
 
 # run shell
 CMD ["/run.sh"]
