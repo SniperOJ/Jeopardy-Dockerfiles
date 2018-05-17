@@ -1,5 +1,9 @@
 # Sniperoj Dockerfile
 
+#### Description
+* Platform Source Code: https://github.com/SniperOJ/SniperOJ-Platform
+* Writeups of Challenges: https://github.com/SniperOJ/SniperOJ-Challenge-Writeups
+
 ```
 本仓库主要存储了 SniperOJ 训练平台的所有题目需要用到的 Docker 环境的 Dockerfile
 初衷是为了能让 CTFer 们能够在本地快速搭建题目运行环境
