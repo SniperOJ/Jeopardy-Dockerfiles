@@ -1,5 +1,5 @@
-#### 
+#### Goals
+ * Find the flag
 
+#### Writeups
 
-#### Goal
-* Find the flag
