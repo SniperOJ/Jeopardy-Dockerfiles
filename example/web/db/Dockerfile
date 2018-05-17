@@ -11,7 +11,8 @@ RUN apt update
 RUN apt install -y \
     apache2 \
     php \
-    libapache2-mod-php
+    libapache2-mod-php \
+    php-mysql
 
 # Setup the vulnerability environment
 RUN rm -rf /var/www/html && mkdir /var/www/html
