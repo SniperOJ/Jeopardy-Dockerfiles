@@ -5,10 +5,11 @@
 
 #### 2. How to report bugs?
 Three methods:
-* 1. Create An Issue To Describe The Bug Detail. (Recommend)
-* 2. Email the vendor: <wangyihanger@gmail.com>
-* 3. Join QQ Group: 514782018 (SniperOJ)
+* Create An Issue To Describe The Bug Detail. (Recommend)
+* Email the vendor: <wangyihanger@gmail.com>
+* Join QQ Group: 514782018 (SniperOJ)
+
 #### 3. Where can I discuss a single challenge?
 Two methods:
-* 1. Create a specific issue named `[Discuss][${TYPE}]Name`, eg: `[Discuss][WEB]bypass-php-exit`
-* 2. Join QQ Group: 514782018 (SniperOJ)
+* Create a specific issue named `[Discuss][${TYPE}]Name`, eg: `[Discuss][WEB]bypass-php-exit`
+* Join QQ Group: 514782018 (SniperOJ)
