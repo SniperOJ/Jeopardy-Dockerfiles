@@ -9,14 +9,12 @@ services:
       - ./db-volume:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD=root
-    ports:
-      - '3306:3306'
   web:
     build: .
     depends_on:
       - mysql
     ports:
-      - '80:80'
+      - '10010:80'
     volumes:
       - ./source:/var/www/html
       - ./logs:/var/log/apache2

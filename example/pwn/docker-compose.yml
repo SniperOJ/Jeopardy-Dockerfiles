@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-    misc:
+    pwn:
         build: .
         ports:
             - '8080:8080'

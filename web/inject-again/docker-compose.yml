@@ -14,6 +14,6 @@ services:
         depends_on:
             - mysql
         ports:
-            - '80:80'
+            - '10003:80'
         stdin_open: true
         tty: true

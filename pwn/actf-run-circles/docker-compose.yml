@@ -1,9 +1,9 @@
 version: '2'
 
 services:
-    misc:
+    pwn:
         build: .
         ports:
-            - '8080:8080'
+            - '20000:8080'
         stdin_open: true
         tty: true
