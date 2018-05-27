@@ -2,7 +2,7 @@
  * Try to find the flag
 
 #### Server Address
- * http://pwn.sniperoj.com:20004/
+ * nc pwn.sniperoj.com 20004
 
 #### Solution
 ```python

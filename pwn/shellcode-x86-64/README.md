@@ -2,8 +2,8 @@
  * Try to find the flag
 
 #### Server Address
- * http://pwn.sniperoj.com:20005/
-5
+ * nc pwn.sniperoj.com 20005
+
 #### Solution
 ```asm
 global _start

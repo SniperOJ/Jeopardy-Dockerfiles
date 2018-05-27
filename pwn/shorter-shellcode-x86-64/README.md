@@ -2,8 +2,8 @@
  * Try to find the flag
 
 #### Server Address
- * http://pwn.sniperoj.com:20006/
-
+ * nc pwn.sniperoj.com 20006
+ 
 #### Solution
 ```python
 #!/usr/bin/env python

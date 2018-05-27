@@ -1,5 +1,8 @@
 #### Goals
- * Get the flag
+ * Try to find the flag
+
+#### Server Address
+ * nc misc.sniperoj.com 30001
 
 #### Solution
 ```python

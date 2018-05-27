@@ -1,5 +1,8 @@
 #### Goals
- * Get the flag
+ * Try to find the flag
+
+#### Server Address
+ * http://misc.sniperoj.com:30002/
 
 #### Solution
 
