@@ -1,8 +1,8 @@
 #### Goals
- * Get the flag
+ * RCE and try to find the flag
 
-#### Solution
-
+#### Server Address
+ * http://web.sniperoj.com:10004/
 
 #### Writeups
  * [Offical Writeup]()

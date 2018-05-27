@@ -1,5 +1,8 @@
 #### Goals
- * Remote Code Execution
+ * RCE and try to find the flag
+
+#### Server Address
+ * http://web.sniperoj.com:10008/
 
 #### Solution
 ```python

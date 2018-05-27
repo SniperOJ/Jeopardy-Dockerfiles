@@ -1,5 +1,8 @@
 #### Goals
- * Get the flag
+ * RCE and try to find the flag
+
+#### Server Address
+ * http://web.sniperoj.com:10011/
 
 #### Solution
 ```python
