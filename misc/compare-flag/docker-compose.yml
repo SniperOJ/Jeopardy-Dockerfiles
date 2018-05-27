@@ -4,6 +4,6 @@ services:
     misc:
         build: .
         ports:
-            - '8080:8080'
+            - '30001:8080'
         stdin_open: true
         tty: true

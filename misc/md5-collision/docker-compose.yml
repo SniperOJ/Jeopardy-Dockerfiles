@@ -4,6 +4,6 @@ services:
     web:
         build: .
         ports:
-            - '80:80'
+            - '30002:80'
         stdin_open: true
         tty: true
