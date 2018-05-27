@@ -1,5 +1,8 @@
 #### Goals
- * Get Flag
+ * Try to find the flag
+
+#### Server Address
+ * http://web.sniperoj.com:10006/
 
 #### Solution
 ```

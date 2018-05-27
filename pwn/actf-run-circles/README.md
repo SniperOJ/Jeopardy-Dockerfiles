@@ -1,5 +1,8 @@
 #### Goals
- * Get the flag
+ * Try to find the flag
+
+#### Server Address
+ * http://pwn.sniperoj.com:20000/
 
 #### Solution
 ```python

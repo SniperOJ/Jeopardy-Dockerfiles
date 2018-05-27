@@ -1,6 +1,9 @@
 #### Goals
- * Get the flag
+ * Try to find the flag
 
+#### Server Address
+ * http://pwn.sniperoj.com:20005/
+5
 #### Solution
 ```asm
 global _start

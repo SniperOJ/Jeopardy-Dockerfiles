@@ -1,8 +1,9 @@
+
 #### Goals
- * Get the flag
+ * Try to find the flag
 
-#### Solution
-
+#### Server Address
+ * http://web.sniperoj.com:10002/
 
 #### Writeups
  * [Offical Writeup]()
