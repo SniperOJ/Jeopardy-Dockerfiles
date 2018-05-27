@@ -25,8 +25,14 @@ global _start
 
 from pwn import *
 
-#Io = process("./shellcode")
-Io = remote("123.207.114.37", 30001)
+context(os='linux', arch='amd64', log_level='debug')
+
+if len(sys.argv) == 3:
+    host = sys.argv[1]
+    port = int(sys.argv[2])
+    Io = remote(host, port)
+else:
+    Io = process("./pwn")
 
 Io.readline()
 addr_data = Io.readline()

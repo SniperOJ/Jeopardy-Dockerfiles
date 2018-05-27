@@ -13,8 +13,12 @@ from pwn import *
 import time
 import sys
 
-
-Io = remote("www.sniperoj.cn", 30018)
+if len(sys.argv) == 3:
+    host = sys.argv[1]
+    port = int(sys.argv[2])
+    Io = remote(host, port)
+else:
+    Io = process("./pwn")
 
 def guess(data, char):
     print "[+] Guessing : [%s]" % (data + char)

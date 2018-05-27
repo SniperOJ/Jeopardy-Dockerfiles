@@ -10,9 +10,16 @@
 
 from pwn import *
 
-# Io = process("./leak")
-Io = remote("pwn.sniperoj.cn", 30007)
+context(os='linux', arch='amd64', log_level='debug')
 
+if len(sys.argv) == 3:
+    host = sys.argv[1]
+    port = int(sys.argv[2])
+    Io = remote(host, port)
+else:
+    Io = process("./pwn")
+
+    
 Io.readuntil("Right?\n")
 
 def leak_one_byte(addr):

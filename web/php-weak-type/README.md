@@ -52,7 +52,15 @@ def batchCheck(examples):
     for i in examples:
         print "[%s] -> [%s] -> [%s]" % ("QNKCDZO", getMd5(i), check(getMd5(i)[2:]))
 
-url = "http://web2.sniperoj.cn:10001/"
+if len(sys.argv) != 3:
+    print "Usage: "
+    print "\tpython %s [HOST] [PORT]" % (sys.argv[0])
+    exit(1)
+
+host = sys.argv[1]
+port = int(sys.argv[2])
+
+url = "http://%s:%d/" % (host, port)
 
 data = {
     "password":examples[1]

@@ -10,8 +10,14 @@
 
 from pwn import *
 
-# Io = process("./shellcode")
-Io = remote("www.sniperoj.cn", 30004)
+context(os='linux', arch='amd64', log_level='debug')
+
+if len(sys.argv) == 3:
+    host = sys.argv[1]
+    port = int(sys.argv[2])
+    Io = remote(host, port)
+else:
+    Io = process("./pwn")
 
 # read buffer addr
 Io.readline()

