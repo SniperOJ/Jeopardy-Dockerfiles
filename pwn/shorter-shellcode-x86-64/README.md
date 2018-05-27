@@ -42,6 +42,5 @@ Io.interactive()
 ```
 
 #### Writeups
- * [Offical Writeup]()
- * [Other Writeup]()
+ * TODO
 

@@ -64,6 +64,5 @@ print response.text
 ```
 
 #### Writeups
- * [Offical Writeup]()
- * [Other Writeup]()
+ * TODO
 

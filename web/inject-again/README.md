@@ -162,6 +162,5 @@ if __name__ == "__main__":
 ```
 
 #### Writeups
- * [Offical Writeup]()
- * [Other Writeup]()
+ * TODO
 

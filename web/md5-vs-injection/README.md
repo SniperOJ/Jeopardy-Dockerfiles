@@ -51,6 +51,5 @@ print response.headers["flag"]
 ```
 
 #### Writeups
- * [Offical Writeup]()
- * [Other Writeup]()
+ * TODO
 

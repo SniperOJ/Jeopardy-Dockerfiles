@@ -10,6 +10,5 @@
 
 
 #### Writeups
- * [Offical Writeup]()
- * [Other Writeup]()
+ * TODO
 

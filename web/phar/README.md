@@ -5,6 +5,5 @@
  * http://web.sniperoj.com:10004/
 
 #### Writeups
- * [Offical Writeup]()
- * [Other Writeup]()
+ * TODO
 

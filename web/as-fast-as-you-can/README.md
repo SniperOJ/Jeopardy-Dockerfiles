@@ -23,6 +23,5 @@ print session.post(url, data=data).text
 ```
 
 #### Writeups
- * [Offical Writeup]()
- * [Other Writeup]()
+ * TODO
 
