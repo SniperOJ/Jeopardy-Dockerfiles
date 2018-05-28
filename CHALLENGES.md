@@ -14,8 +14,8 @@
 | [SniperOJ](https://www.sniperoj.com/) |[punctuation-webshell](web/punctuation-webshell)|[WangYihang](https://github.com/WangYihang)|
 | [SniperOJ](https://www.sniperoj.com/) |[sniperoj-web-browser](web/sniperoj-web-browser)|[WangYihang](https://github.com/WangYihang)|
 | [SniperOJ](https://www.sniperoj.com/) |[md5-vs-injection](web/md5-vs-injection)|[WangYihang](https://github.com/WangYihang)|
+| [SniperOJ](https://www.sniperoj.com/) |[inject-again](web/inject-again)|[WangYihang](https://github.com/WangYihang)|
 | RESERVED |~~[hard-injection-via-update](web/hard-injection-via-update)~~|Reversed|
-| RESERVED |~~[inject-again](web/inject-again)~~|Reversed|
 
 #### MISC
 | Competition | Name | Author |
