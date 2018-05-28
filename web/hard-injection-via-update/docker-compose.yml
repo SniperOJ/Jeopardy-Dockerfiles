@@ -6,6 +6,7 @@ services:
         volumes:
             - ./db-volume:/var/lib/mysql
             - ./database.sql:/docker-entrypoint-initdb.d
+            - ./mysqld.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf
         environment:
             - MYSQL_DATABASE=ctf
             - MYSQL_ROOT_PASSWORD=root
