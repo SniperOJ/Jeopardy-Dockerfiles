@@ -9,6 +9,7 @@ services:
       - ./db-volume:/var/lib/mysql
       - ./mysqld.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf
     environment:
+      - MYSQL_DATABASE=ctf
       - MYSQL_ROOT_PASSWORD=root
   web:
     build: .
