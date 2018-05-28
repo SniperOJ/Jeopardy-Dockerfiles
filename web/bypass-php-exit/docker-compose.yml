@@ -8,4 +8,5 @@ services:
         stdin_open: true
         tty: true
         volumes:
-            - ./source/upload:/var/www/html/upload
+            - ./source:/var/www/html
+            - ./logs:/var/log/apache2

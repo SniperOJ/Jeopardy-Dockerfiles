@@ -7,3 +7,5 @@ services:
             - '10000:80'
         stdin_open: true
         tty: true
+        volumes:
+            - ./logs:/var/log/apache2

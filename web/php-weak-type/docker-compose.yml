@@ -7,3 +7,6 @@ services:
             - '10005:80'
         stdin_open: true
         tty: true
+        volumes:
+            - ./source:/var/www/html
+            - ./logs:/var/log/apache2
