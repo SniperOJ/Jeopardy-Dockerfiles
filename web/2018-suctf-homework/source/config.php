@@ -1,8 +1,8 @@
 <?php
-    $db="calc";
-    $dbusername="suctf";
-    $dbpassword="suctf";
-    $host="127.0.0.1";
+	$db="ctf";
+	$dbusername="root";
+	$dbpassword="root";
+	$host="mysql";
 
-    $mysql=mysqli_connect($host,$dbusername,$dbpassword,$db) or die("connect failed");
+	$mysql=mysqli_connect($host,$dbusername,$dbpassword,$db) or die("connect failed");
 ?>

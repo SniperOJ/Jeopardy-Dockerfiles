@@ -11,12 +11,12 @@
 </head>
 <body>
 <div class="snow-container">
-              <div class="snow foreground"></div>
-              <div class="snow foreground layered"></div>
-              <div class="snow middleground"></div>
-              <div class="snow middleground layered"></div>
-              <div class="snow background"></div>
-              <div class="snow background layered"></div>
+			  <div class="snow foreground"></div>
+			  <div class="snow foreground layered"></div>
+			  <div class="snow middleground"></div>
+			  <div class="snow middleground layered"></div>
+			  <div class="snow background"></div>
+			  <div class="snow background layered"></div>
 </div>
 
 <div class="top-buttons-agileinfo">
@@ -25,19 +25,19 @@
 <h1>PHP Homework Platform Login
 </h1>
 <div class="main-agileits">
-        <div class="form-w3-agile">
-            <h2 class="sub-agileits-w3layouts">Login</h2>
-            <form action="#" method="post">
-                    <input type="text" name="username" placeholder="username" required="" />
-                    <input type="password" name="password" placeholder="password" required="" />
-                <div class="submit-w3l">
-                    <input type="submit" value="Login">
-                </div>
-                <p class="p-bottom-w3ls"><a href="register.php">Click Register</a>If you don't have an account.</p>
-            </form>
-        </div>
-        </div>
-    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<div class="form-w3-agile">
+			<h2 class="sub-agileits-w3layouts">Login</h2>
+			<form action="#" method="post">
+					<input type="text" name="username" placeholder="username" required="" />
+					<input type="password" name="password" placeholder="password" required="" />
+				<div class="submit-w3l">
+					<input type="submit" value="Login">
+				</div>
+				<p class="p-bottom-w3ls"><a href="register.php">Click Register</a>If you don't have an account.</p>
+			</form>
+		</div>
+		</div>
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 
 </body>
 </html>

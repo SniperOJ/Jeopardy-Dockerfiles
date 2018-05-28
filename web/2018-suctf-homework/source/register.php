@@ -20,14 +20,14 @@
 </div>
 
 <div class="top-buttons-agileinfo">
-<a href="index.html">Login</a><a href="register.php" class="active">Register</a>
+<a href="login.php">Login</a><a href="register.php" class="active">Register</a>
 </div>
 <h1>PHP Homework Platform Register</h1>
 <div class="main-agileits">
 <!--form-stars-here-->
 		<div class="form-w3-agile">
 			<h2 class="sub-agileits-w3layouts">Register</h2>
-			<form action="register.php#" method="post">
+			<form action="#" method="post">
 					<input type="text" name="username" placeholder="username" required="" />
 					<input type="password" name="password1" placeholder="password1" required="" />
 					<input type="password" name="password2" placeholder="password2" required="" />
@@ -41,3 +41,7 @@
 
 </body>
 </html>
+<?php
+define("login","1");
+include("register_p.php");
+?>
