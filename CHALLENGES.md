@@ -3,6 +3,7 @@
 #### WEB
 | Competition | Name | Author |
 | :--: | :--: | :-----: |
+| [2018-SUCTF](http://suctf.xctf.org.cn/) |[homework](web/2018-suctf-homework)|[Wisdom Tree](https://laworigin.github.io/)|
 | [SniperOJ](https://www.sniperoj.com/) |[2048](web/2048)|[WangYihang](https://github.com/WangYihang)|
 | [SniperOJ](https://www.sniperoj.com/) |[as-fast-as-you-can](web/as-fast-as-you-can)|[WangYihang](https://github.com/WangYihang)|
 | [SniperOJ](https://www.sniperoj.com/) |[baby-eval](web/baby-eval)|Reversed|
