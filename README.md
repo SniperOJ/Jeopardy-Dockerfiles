@@ -55,6 +55,10 @@ docker-compose run
 #### FAQ
 > [Freuqently Asked Questions](FAQ.md)
 
+#### Acknownledgement
+* [Wisdom Tree](https://laworigin.github.io/)
+* [Ringzer0team](https://ringzer0team.com)
+
 #### Reference
 * [Platform Source Code](https://github.com/SniperOJ/SniperOJ-Platform)
 * [Writeups of Challenges](https://github.com/SniperOJ/SniperOJ-Challenge-Writeups)
