@@ -12,7 +12,8 @@ RUN apt install -y \
     apache2 \
     php \
     libapache2-mod-php \
-    php-mysql
+    php-mysql \
+    php-xml
 
 # add new user if it is needed
 # RUN useradd -d /home/ctf/ -m -p ctf -s /bin/bash ctf
