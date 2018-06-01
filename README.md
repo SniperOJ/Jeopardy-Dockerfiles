@@ -1,7 +1,8 @@
 # SniperOJ Dockerfiles
 
-**[SniperOJ](https://github.com/SniperOJ)** is an open source CTF(Capture The Flag) Platform.
-**everything is open source**, including platform and all challenges (**Dockfiles never use private images**).   
+**[SniperOJ](https://github.com/SniperOJ)** is an open source CTF(Capture The Flag) Platform.  
+**everything is open source**, including platform and all challenges.  
+**Dockfiles never use private images**, so you can see all operations while build a vulnerability environment.   
 This repo will store all Dockerfiles of challenges running on SniperOJ.  
 You don't need to worry about how to build a challenging environment.  
 All you need to do is typing a few commands and then you can start to solve the challenges.  
