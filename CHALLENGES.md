@@ -16,6 +16,9 @@
 | [SniperOJ](https://www.sniperoj.com/) |[md5-vs-injection](web/md5-vs-injection)| [WEB](./web) |[WangYihang](https://github.com/WangYihang)|:star:|:star:|RESERVED|
 | [SniperOJ](https://www.sniperoj.com/) |[inject-again](web/inject-again)| [WEB](./web) |[WangYihang](https://github.com/WangYihang)|:star:|:star:|RESERVED|
 | RESERVED |~~[hard-injection-via-update](web/hard-injection-via-update)~~| [WEB](./web) |Reversed|:star:|:star:|RESERVED|
+| [SniperOJ](https://www.sniperoj.com/) |[trick-on-base64](web/trick-on-base64)| [WEB](./web) |Reversed|:star:|:star:|RESERVED|
+| [SniperOJ](https://www.sniperoj.com/) |[r-cursive-revenge](web/r-cursive-revenge)| [WEB](./web) |Reversed|:star:|:star:|RESERVED|
+| [SniperOJ](https://www.sniperoj.com/) |[pull-the-string](web/pull-the-string)| [WEB](./web) |Reversed|:star:|:star:|RESERVED|
 | [SniperOJ](https://www.sniperoj.com/) |[compare-flag](misc/compare-flag)| [MISC](./misc) |[WangYihang](https://github.com/WangYihang)|:star:|:star:|RESERVED|
 | [Ringzer0team](https://ringzer0team.com/challenges) |[bash-jail](misc/bash-jail)| [MISC](./misc) |[ringzer0team]( https://ringzer0team.com/)|:star:|:star:|RESERVED|
 | [SniperOJ](https://www.sniperoj.com/) |[md5-collision](misc/md5-collision)| [MISC](./misc) |[WangYihang](https://github.com/WangYihang)|:star:|:star:|RESERVED|
