@@ -33,10 +33,10 @@
 | Competition | Name | Type | Author | Level | Writeup |
 | :--: | :--: | :-----: | :-----: | :-----: | :-----: |
 | 2016-ACTF |[run-circles](pwn/actf-run-circles)| [PWN](./pwn) |Reversed|:star:|RESERVED|
-| [SniperOJ](https://www.sniperoj.com/) |[advanced-leak-x86](pwn/advanced-leak-x86)| [PWN](./pwn) |[WangYihang](https://github.com/WangYihang)|:star:|RESERVED|
+| [SniperOJ](https://www.sniperoj.com/) |[advanced-leak-x86](pwn/advanced-leak-x86)| [PWN](./pwn) |[WangYihang](https://github.com/WangYihang)|:star::star:|RESERVED|
 | [SniperOJ](https://www.sniperoj.com/) |[bof-x86-64](pwn/bof-x86-64)| [PWN](./pwn) |[WangYihang](https://github.com/WangYihang)|:star:|RESERVED|
 | [SniperOJ](https://www.sniperoj.com/) |[leak-x86](pwn/leak-x86)| [PWN](./pwn) |[WangYihang](https://github.com/WangYihang)|:star:|RESERVED|
-| [SniperOJ](https://www.sniperoj.com/) |[printable](pwn/printable)| [PWN](./pwn) |[WangYihang](https://github.com/WangYihang)|:star:|RESERVED|
+| [SniperOJ](https://www.sniperoj.com/) |[printable](pwn/printable)| [PWN](./pwn) |[WangYihang](https://github.com/WangYihang)|:star::star:|RESERVED|
 | [SniperOJ](https://www.sniperoj.com/) |[shellcode-x86-64](pwn/shellcode-x86-64)| [PWN](./pwn) |[WangYihang](https://github.com/WangYihang)|:star:|RESERVED|
-| [SniperOJ](https://www.sniperoj.com/) |[shorter-shellcode-x86-64](pwn/shorter-shellcode-x86-64)| [PWN](./pwn) |[WangYihang](https://github.com/WangYihang)|:star:|RESERVED|
+| [SniperOJ](https://www.sniperoj.com/) |[shorter-shellcode-x86-64](pwn/shorter-shellcode-x86-64)| [PWN](./pwn) |[WangYihang](https://github.com/WangYihang)|:star::star:|RESERVED|
 
