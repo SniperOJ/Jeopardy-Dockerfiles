@@ -71,8 +71,8 @@ docker-compose run
 | [SniperOJ](https://www.sniperoj.com/) |[md5-vs-injection](web/md5-vs-injection)| [WEB](./web) |[WangYihang](https://github.com/WangYihang)|:star:|RESERVED|
 | [SniperOJ](https://www.sniperoj.com/) |[inject-again](web/inject-again)| [WEB](./web) |[WangYihang](https://github.com/WangYihang)|:star::star:|RESERVED|
 | RESERVED |~~[hard-injection-via-update](web/hard-injection-via-update)~~| [WEB](./web) |Reversed|:star::star::star:|RESERVED|
-| [SniperOJ](https://www.sniperoj.com/) |[trick-on-base64](web/trick-on-base64)| [WEB](./web) |[XDCTF-2017 & WangYihang](https://github.com/WangYihang)|:star::star::star:|RESERVED|
-| [SniperOJ](https://www.sniperoj.com/) |[r-cursive-revenge](web/r-cursive-revenge)| [WEB](./web) |[超威蓝猫 & WangYihang](https://github.com/WangYihang)|:star::star::star:|RESERVED|
+| [SniperOJ](https://www.sniperoj.com/) |[trick-on-base64](web/trick-on-base64)| [WEB](./web) | XDCTF-2017 & [WangYihang](https://github.com/WangYihang)|:star::star::star:|RESERVED|
+| [SniperOJ](https://www.sniperoj.com/) |[r-cursive-revenge](web/r-cursive-revenge)| [WEB](./web) | 超威蓝猫 & [WangYihang](https://github.com/WangYihang)|:star::star::star:|RESERVED|
 | [SniperOJ](https://www.sniperoj.com/) |[pull-the-string](web/pull-the-string)| [WEB](./web) |[WangYihang](https://github.com/WangYihang)|:star::star:|RESERVED|
 
 ### MISC
