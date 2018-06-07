@@ -74,6 +74,7 @@ docker-compose run
 | [SniperOJ](https://www.sniperoj.com/) |[trick-on-base64](web/trick-on-base64)| [WEB](./web) | XDCTF-2017 & [WangYihang](https://github.com/WangYihang)|:star::star::star:|RESERVED|
 | [SniperOJ](https://www.sniperoj.com/) |[r-cursive-revenge](web/r-cursive-revenge)| [WEB](./web) | 超威蓝猫 & [WangYihang](https://github.com/WangYihang)|:star::star::star:|RESERVED|
 | [SniperOJ](https://www.sniperoj.com/) |[pull-the-string](web/pull-the-string)| [WEB](./web) |[WangYihang](https://github.com/WangYihang)|:star::star:|RESERVED|
+| [SniperOJ](https://www.sniperoj.com/) |[baby-ssrf](web/baby-ssrf)| [WEB](./web) |[WangYihang](https://github.com/WangYihang)|:star::star:|RESERVED|
 
 ### MISC
 
