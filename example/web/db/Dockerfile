@@ -14,10 +14,6 @@ RUN apt install -y \
     libapache2-mod-php \
     php-mysql
 
-# Setup the vulnerability environment
-RUN rm -rf /var/www/html && mkdir /var/www/html
-COPY source /var/www/html
-
 # add new user if it is needed
 # RUN useradd -d /home/ctf/ -m -p ctf -s /bin/bash ctf
 # RUN echo "ctf:ctf" | chpasswd
