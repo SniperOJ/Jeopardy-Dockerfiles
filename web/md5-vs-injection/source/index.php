@@ -29,8 +29,7 @@ error_reporting(E_ALL | E_STRICT);
 			// }
 			if (($result->num_rows) > 0){
 				echo "Login success!";
-				setcookie("flag","SniperOJ{md5_V5_injection}");
-				header("flag: SniperOJ{md5_V5_injection}");
+				setcookie("flag","a720f52a-fc42-434c-b045-a21a2ada3e25");
 			}else{
 				echo "Login failed!";
 			}

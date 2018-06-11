@@ -1,5 +1,5 @@
 <?php
-$flag = 'SniperOJ{pHp_is_the_best_programming_language_in_the_world}';
+$flag = '16f772b3-3551-468d-bab7-3ae2c9faff31';
 	if(isset($_POST['password'])){
 		$current_password = "QNKCDZO";
 		$password = $_POST['password'];

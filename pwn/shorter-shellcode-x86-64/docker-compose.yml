@@ -7,3 +7,5 @@ services:
             - '20006:8080'
         stdin_open: true
         tty: true
+        volumes:
+            - ./flag:/flag

@@ -10,3 +10,4 @@ services:
                 volumes:
                         - ./source:/var/www/html
                         - ./logs:/var/log/apache2
+                        - ./flag:/flag

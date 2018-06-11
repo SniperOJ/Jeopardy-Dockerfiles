@@ -1,5 +1,5 @@
 <?php
-$flag = 'SniperOJ{hyper_t3xt_tran5fer_pr0t0cOl}';
+$flag = 'c12c0716-89e4-47cb-8d6c-56376e2413c3';
 function getIP()
 {
 	if (@$_SERVER["HTTP_X_FORWARDED_FOR"]){

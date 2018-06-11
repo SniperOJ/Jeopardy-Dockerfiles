@@ -9,3 +9,4 @@ services:
                 tty: true
                 volumes:
                         - ./logs:/var/log/apache2
+                        - ./flag:/flag

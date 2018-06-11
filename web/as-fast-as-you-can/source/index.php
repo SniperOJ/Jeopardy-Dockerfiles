@@ -26,7 +26,7 @@ if(isset($_POST['SniperOJ'])){
 	if($_POST['SniperOJ'] === $_SESSION['random_string']){
 		$cost = getMilliSecond() - $_SESSION['random_string_create_time'];
 		if ($cost < 3000){
-			echo "Wow, prefect! Here is the flag : SniperOJ{faster_faster_faster_2333}";
+			echo "Wow, prefect! Here is the flag : d146f2af-d403-42ec-aa50-0de36c073796";
 		}else{
 			echo "Can you do it faster? you cost [$cost] msec";
 		}
