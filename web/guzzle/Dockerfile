@@ -16,10 +16,10 @@ RUN apt update && \
 
 # Composer
 WORKDIR /var/www/
-RUN curl -sS https://getcomposer.org/installer | php
+RUN sh -c "curl -vv -sS https://getcomposer.org/installer | php"
 
 # Install denpendencies
-RUN php ./composer.phar install -vvv
+RUN php composer.phar install -vvv
 
 # Entry point
 ENTRYPOINT service apache2 start && /bin/bash
