@@ -63,7 +63,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
+            "url": "https://asset-packagist.org"
         }
     ]
 }
