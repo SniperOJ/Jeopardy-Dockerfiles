@@ -7,6 +7,7 @@ MAINTAINER Wang Yihang "wangyihanger@gmail.com"
 # update
 RUN apt update && \
     apt install -y \
+    curl \
     apache2 \
     php \
     libapache2-mod-php \
