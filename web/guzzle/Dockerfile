@@ -15,11 +15,11 @@ RUN apt update && \
     php-gd
 
 # Composer
-RUN curl -sS https://getcomposer.org/installer | php \
-    mv composer.phar /usr/local/bin/composer
+WORKDIR /var/www/
+RUN curl -sS https://getcomposer.org/installer | php
 
 # Install denpendencies
-RUN cd /var/www/ && composer install -vvv
+RUN php ./composer.phar install -vvv
 
 # Entry point
 ENTRYPOINT service apache2 start && /bin/bash
