@@ -16,7 +16,7 @@ services:
     depends_on:
       - mysql
     ports:
-      - '10003:80'
+      - '10001:80'
     volumes:
       - ./source:/var/www/html
       - ./logs:/var/log/apache2

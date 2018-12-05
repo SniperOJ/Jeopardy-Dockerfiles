@@ -16,14 +16,15 @@ if(!isset($_POST['command'])) {
 $command = $_POST['command'];
 
 function filter($data) {
-    $black_list = array('"', "'", " ", "\t", "\n");
+    $black_list = array('"', "'", " ", "\n");
     foreach ($black_list as $key) {
         $data = str_replace($key, '', $data);
     }
     return $data;
 }
 
-echo str_replace("\n", "</br>\n", shell_exec('ping -c 1 '.filter($command)));
+$command = 'ping -c 1 '.filter($command);
+echo str_replace("\n", "</br>\n", shell_exec($command));
 ?>
 
 

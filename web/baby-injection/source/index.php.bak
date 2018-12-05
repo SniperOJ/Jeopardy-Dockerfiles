@@ -22,9 +22,6 @@ $username = isset($_GET['username'])?$_GET['username']:die('<a href="/?username=
 
 $sql = "select * from `users` where  username ='$username'";
 
-echo "SQL: ";
-echo $sql;
-echo "</br>";
 $res = $conn->query($sql);
 
 if($res && $res->num_rows-0){
