@@ -3,3 +3,4 @@
 /uploads/
 /vendor/
 composer.phar
+composer.lock
