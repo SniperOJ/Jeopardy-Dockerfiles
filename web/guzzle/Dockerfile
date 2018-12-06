@@ -5,15 +5,10 @@ FROM ubuntu:16.04
 MAINTAINER Wang Yihang "wangyihanger@gmail.com"
 
 # update
-RUN apt update && \
-    apt install -y \
-    curl \
-    zlibc \
-    apache2 \
-    php \
-    libapache2-mod-php \
-    php-mysql \
-    php-gd
+RUN apt update
+RUN apt install -y apache2 curl zlibc
+RUN apt install -y php libapache2-mod-php
+RUN apt install -y php-mysql php-gd php-mbstring
 
 # Composer
 WORKDIR /var/www/
