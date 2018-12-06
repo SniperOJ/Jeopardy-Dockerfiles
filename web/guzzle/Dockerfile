@@ -8,6 +8,7 @@ MAINTAINER Wang Yihang "wangyihanger@gmail.com"
 RUN apt update && \
     apt install -y \
     curl \
+    zlibc \
     apache2 \
     php \
     libapache2-mod-php \
@@ -16,9 +17,8 @@ RUN apt update && \
 
 # Composer
 WORKDIR /var/www/
-RUN sh -c "curl -vv -sS https://getcomposer.org/installer | php"
-
-# Install denpendencies
+RUN curl -vv -sS https://getcomposer.org/installer | php
+COPY ./source/composer.json /var/www/composer.json
 RUN php composer.phar install -vvv
 
 # Entry point
