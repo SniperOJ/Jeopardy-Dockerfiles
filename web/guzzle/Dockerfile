@@ -12,14 +12,5 @@ RUN apt install -y php-mysql php-gd php-mbstring php-dom
 RUN apt install -y git
 RUN apt install -y unzip
 
-# Composer
-WORKDIR /var/www/
-RUN curl -vv -sS https://getcomposer.org/installer | php
-COPY ./source/composer.json /var/www/composer.json
-RUN php composer.phar install -vvv
-
-# Set writable folders
-RUN chmod o+w /var/www/html/assets /var/www/uploads
-
 # Entry point
-ENTRYPOINT service apache2 start && /bin/bash
+ENTRYPOINT /run.sh

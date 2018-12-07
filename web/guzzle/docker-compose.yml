@@ -22,3 +22,4 @@ services:
             - ./source:/var/www/
             - ./logs:/var/log/apache2
             - ./flag-f3de3edf-2591-4d43-8788-a624bd94804a:/flag
+            - ./run.sh:/run.sh
