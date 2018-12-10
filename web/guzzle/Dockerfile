@@ -13,4 +13,4 @@ RUN apt install -y git
 RUN apt install -y unzip
 
 # Entry point
-ENTRYPOINT /run.sh
+ENTRYPOINT service apache2 start && /bin/bash
