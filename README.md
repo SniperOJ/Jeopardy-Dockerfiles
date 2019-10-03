@@ -99,9 +99,9 @@ docker-compose run
 
 
 ## FAQ
-> [Freuqently Asked Questions](FAQ.md)
+> [Frequently Asked Questions](FAQ.md)
 
-## Acknownledgement
+## Acknowledgement
 * [Wisdom Tree](https://laworigin.github.io/)
 * [Ringzer0team](https://ringzer0team.com)
 
