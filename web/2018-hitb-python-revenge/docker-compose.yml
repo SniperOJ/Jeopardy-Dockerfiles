@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    volumes:
+      - ./src:/app:ro
+      - ./flag:/flag
+    restart: always
+    ports:
+      - 10020:5000
+    ulimits:
+      nproc: 500
