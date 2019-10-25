@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    volumes:
+      - ./src:/app:ro
+    restart: always
+    ports:
+      - 10018:5000
+    ulimits:
+      nproc: 500
+
