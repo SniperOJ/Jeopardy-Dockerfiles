@@ -7,7 +7,7 @@ services:
       - ./src:/app:ro
     restart: always
     ports:
-      - 10001:5000
+      - 10019:5000
     ulimits:
       nproc: 500
 
