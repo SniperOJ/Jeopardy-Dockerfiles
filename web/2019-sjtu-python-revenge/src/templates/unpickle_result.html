@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Python Pickler</title>
+    </head>
+    <body>
+        <p>Your data: {{ pickle_data }}</p>
+        <p>Unpickle result: {{ result }}</p>
+        {% if giveflag %}
+        <p>That's indeed my favourite, my friend!</p>
+        <p>(Hope you didn't play tricks on me or read my mind.)</p>
+        <p>And, as promised, the flag is flag{409ed945-5b77-4ec3-97e1-b395778842ba}</p>
+        {% else %}
+        <p>Interesting, but not same as mine.</p>
+        {% endif %}
+    </body>
+</html>

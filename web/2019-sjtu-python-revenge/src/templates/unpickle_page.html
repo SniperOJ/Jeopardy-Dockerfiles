@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Python Pickler</title>
+    </head>
+    <body>
+        <p>Sample animal: {{ sample_obj }}</p>
+        <p>Pickled data: {{ pickle_data }}</p>
+        <p>I will give you the flag if we share the same animal as our favourite.</p>
+        <p>FYI, check the source <a href="?source=1">here</a>.</p>
+        <form action="/" method="POST">
+            The data of your favourite animal to unpickle: <input type="text" name="data">
+            <input type="submit">
+        </form>
+    </body>
+</html>
