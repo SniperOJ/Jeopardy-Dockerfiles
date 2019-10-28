@@ -30,7 +30,7 @@ import codeop
 import pty
 import posixfile
 
-SECRET_KEY = 'you will never guess'
+SECRET_KEY = 'fd71d94e-da4e-4be0-ba4c-d1bde558712f'
 
 if not os.path.exists('.secret'):
     with open(".secret", "w") as f:
@@ -129,7 +129,11 @@ def getlocation():
     if not safe_str_cmp(calc_digest(location, cookie_secret), digest):
         flash("Hey! This is not a valid cookie! Leave me alone.")
         return False
-    location = loads(b64d(location))
+    try:
+        location = loads(b64d(location))
+    except Exception as e:
+        print(e)
+        return "something wrong"
     return location
 
 
@@ -143,3 +147,4 @@ def calc_digest(location, secret):
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000)
+
