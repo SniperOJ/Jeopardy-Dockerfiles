@@ -8,4 +8,5 @@ COPY ./html /var/www/html/
 COPY ./flag /flag
 
 RUN php /var/www/html/install.php \
-    &&  chown www-data:www-data /tmp/logger.data
+    &&  chown www-data:www-data /tmp/logger.data \
+    && rm /var/www/html/install.php
