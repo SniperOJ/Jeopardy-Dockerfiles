@@ -75,6 +75,7 @@ docker-compose run
 | [SniperOJ](https://www.sniperoj.com/) |[r-cursive-revenge](web/r-cursive-revenge)| [WEB](./web) | 超威蓝猫 & [WangYihang](https://github.com/WangYihang)|:star::star::star:|RESERVED|
 | [SniperOJ](https://www.sniperoj.com/) |[pull-the-string](web/pull-the-string)| [WEB](./web) |[WangYihang](https://github.com/WangYihang)|:star::star:|RESERVED|
 | [SniperOJ](https://www.sniperoj.com/) |[baby-ssrf](web/baby-ssrf)| [WEB](./web) |[WangYihang](https://github.com/WangYihang)|:star::star:|RESERVED|
+| [2019-Ogeek](https://ogeek.oppo.com/) |[AndroidPHP](web/2019-ogeek-AndroidPHP)| [WEB](./web) |[Jingzhe](https://github.com/rama291041610)|:star::star::star:|RESERVED|
 
 ### MISC
 
