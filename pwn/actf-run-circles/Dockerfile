@@ -9,7 +9,7 @@ RUN apt update
 
 # Setup Server Environment
 RUN apt install -y \
-    make clean || make \
+    make \
     gcc \
     socat
 
