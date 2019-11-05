@@ -12,6 +12,7 @@ RUN apt update
 RUN apt install -y \
     make \
     gcc \
+    g++ \
     socat
 
 # add new user if it is needed

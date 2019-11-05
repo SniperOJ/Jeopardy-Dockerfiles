@@ -24,11 +24,10 @@ WORKDIR /home/ctf
 # Setup the vulnerability environment
 COPY source .
 
-# Compile binary
-RUN make clean; make
+# DO NOT NEED COMPILE BINARY FOR THIS CHALLENGE
 
 # Change user
 USER ctf
 
 # Entry point
-ENTRYPOINT socat tcp-l:8080,fork,reuseaddr exec:./orw.bin && /bin/bash
+ENTRYPOINT socat tcp-l:8080,fork,reuseaddr exec:./orw && /bin/bash
