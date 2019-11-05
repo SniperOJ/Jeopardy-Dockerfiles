@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+    pwn:
+        build: .
+        ports:
+            - '20015:8080'
+        stdin_open: true
+        tty: true
+        volumes:
+            ./flag:/flag
