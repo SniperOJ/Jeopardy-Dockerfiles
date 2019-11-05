@@ -11,4 +11,4 @@ services:
                         - ./logs:/var/log/apache2
                         - ./source:/var/www/html
                         - ./php.ini:/etc/php/7.0/apache2/php.ini
-                        - ./flag:/flag.txt
+                        - ./flag:/flag

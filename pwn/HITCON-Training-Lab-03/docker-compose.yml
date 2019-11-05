@@ -8,4 +8,4 @@ services:
         stdin_open: true
         tty: true
         volumes:
-            ./flag:/flag
+            - ./flag:/flag
