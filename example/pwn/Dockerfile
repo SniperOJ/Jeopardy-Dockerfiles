@@ -25,7 +25,7 @@ WORKDIR /home/ctf
 COPY source .
 
 # Compile binary
-RUN make
+RUN make clean || make
 
 # Change user
 USER ctf
