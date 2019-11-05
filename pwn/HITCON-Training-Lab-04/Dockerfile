@@ -31,4 +31,4 @@ RUN make
 USER ctf
 
 # Entry point
-ENTRYPOINT socat tcp-l:8080,fork,reuseaddr exec:./pwn && /bin/bash
+ENTRYPOINT socat tcp-l:8080,fork,reuseaddr exec:./ret2lib && /bin/bash
