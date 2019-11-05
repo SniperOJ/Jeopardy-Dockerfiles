@@ -4,7 +4,7 @@ services:
     pwn:
         build: .
         ports:
-            - '20000:8080'
+            - '20007:8080'
         stdin_open: true
         tty: true
         volumes:
