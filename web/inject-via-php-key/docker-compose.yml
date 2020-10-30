@@ -1,0 +1,25 @@
+version: '2'
+
+services:
+  mysql:
+    image: mysql:5.6
+    restart: always
+    volumes:
+      - ./database.sql:/docker-entrypoint-initdb.d/database.sql
+      - ./db-volume:/var/lib/mysql
+      - ./mysqld.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf
+    environment:
+      - MYSQL_DATABASE=supersqli
+      - MYSQL_USER=supersqli
+      - MYSQL_PASSWORD=supersqli
+      - MYSQL_RANDOM_ROOT_PASSWORD=1
+  web:
+    build: .
+    depends_on:
+      - mysql
+    ports:
+      - '10003:80'
+    volumes:
+      - ./source:/var/www/html
+      - ./logs:/var/log/apache2
+    stdin_open: true
