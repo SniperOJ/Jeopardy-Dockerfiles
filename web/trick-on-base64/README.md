@@ -5,7 +5,10 @@
 
 
 #### Writeups
- * TODO
+
+* Generate base64 encoded webshell via [python script](https://gist.github.com/WangYihang/a49c663237e68822dd4816e99534ca72)
+* Upload the encoded webshell
+* Trigger php file inclusion using multiple base64-decode converters
 
 ## 版权
 
